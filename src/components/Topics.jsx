@@ -26,33 +26,33 @@ function Topics() {
     <div className="topics reveal-right">
       <h2 className="h2">Topics</h2>
 
-      <a href="#" className="topic-btn reveal-right" style={{ "--delay": "0.1s" }}>
+      <p className="topic-btn reveal-right" style={{ "--delay": "0.1s" }}>
         <div className="icon-box">
           <ion-icon name="code-slash-sharp"></ion-icon>
         </div>
         <p>Front-End Development</p>
-      </a>
+      </p>
 
-      <a href="#" className="topic-btn reveal-right" style={{ "--delay": "0.2s" }}>
+      <p className="topic-btn reveal-right" style={{ "--delay": "0.2s" }}>
         <div className="icon-box">
           <ion-icon name="server-outline"></ion-icon>
         </div>
         <p>Back-End Development</p>
-      </a>
+      </p>
 
-      <a href="#" className="topic-btn reveal-right" style={{ "--delay": "0.3s" }}>
+      <p className="topic-btn reveal-right" style={{ "--delay": "0.3s" }}>
         <div className="icon-box">
           <ion-icon name="rocket-outline"></ion-icon>
         </div>
         <p>UI/UX Design (Figma)</p>
-      </a>
+      </p>
 
-      <a href="#" className="topic-btn reveal-right" style={{ "--delay": "0.4s" }}>
+      <p className="topic-btn reveal-right" style={{ "--delay": "0.4s" }}>
         <div className="icon-box">
           <ion-icon name="layers-outline"></ion-icon>
         </div>
         <p>Scrum & Agile (Jira)</p>
-      </a>
+      </p>
 
     </div>
   );
