@@ -30,9 +30,9 @@ function Education() {
           <span className="dot"></span>
           <div className="content">
             <h3>High School Othman Ibno Affan</h3>
-            <p>2020 - 2023</p>
+            <p>2020 - 2023 · Casablanca</p>
             <span>
-              Baccalaureate - Physical Sciences · Casablanca
+              Baccalaureate - Physical Sciences
             </span>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 function BackgroundAnimation({ theme = "light" }) {
-  const bubbles = Array.from({ length: 25 }, () => ({
+  const bubbles = Array.from({ length: 20 }, () => ({
     size: Math.random() * 20 + 10,
     top: Math.random() * 100,
     left: Math.random() * 100,

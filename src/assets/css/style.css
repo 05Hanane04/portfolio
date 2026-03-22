@@ -421,6 +421,7 @@ body.dark-theme .theme-btn-mobile .sun {
   font-weight: 800;
   color: var(--foreground-primary);
   font-family: "Playfair Display", serif;
+  font-style: italic;
 }
 
 .logo:hover {
@@ -448,6 +449,8 @@ body.dark-theme .theme-btn-mobile .sun {
 .hero .h3 {
   color: var(--foreground-secondary);
   margin-bottom: 2rem;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
 }
 .blog-content-wrapper #title-project {
   text-decoration: none;
@@ -1457,23 +1460,21 @@ body.dark-theme .theme-btn-mobile .sun {
   }
 }
 
-
-
-
-
 /*Framer Motion*/
-
+body {
+  overflow-x: hidden;
+}
 .background-animation {
   inset: 0;
-  z-index: -1  ;
+  z-index: -1;
   pointer-events: none;
   overflow: hidden;
-}    
+}
 
 .floating-shape {
   position: absolute;
   border-radius: 50%;
-  opacity: 0.7;
+  opacity: 0.9;
   animation-name: floatAround;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -1481,11 +1482,20 @@ body.dark-theme .theme-btn-mobile .sun {
 }
 
 @keyframes floatAround {
-  0%   { transform: translate(0px, 0px); }
-  25%  { transform: translate(20px, -15px); }
-  50%  { transform: translate(-15px, 20px); }
-  75%  { transform: translate(10px, -20px); }
-  100% { transform: translate(0px, 0px); }
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(20px, -15px);
+  }
+  50% {
+    transform: translate(-15px, 20px);
+  }
+  75% {
+    transform: translate(10px, -20px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
 }
-  
 
