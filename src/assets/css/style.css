@@ -752,6 +752,14 @@ body.dark-theme .theme-btn-mobile .sun {
   color: #f7df1e;
   text-shadow: 0 0 6px #f7df1e;
 }
+.fa-vuejs:hover {
+  color: #42b883;
+  text-shadow: 0 0 6px #42b883;
+}
+.fa-git-alt:hover {
+  color: #f05032;
+  text-shadow: 0 0 6px #f05032;
+}
 .fa-laravel:hover {
   color: #ff2d20;
   text-shadow: 0 0 6px #ff2d20;
