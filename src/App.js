@@ -11,7 +11,6 @@ import Topics from "./components/Topics";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollUp from "./components/ScrollUp";
-import BackgroundAnimation from "./components/BackgroundAnimation";
 import "./assets/css/style.css";
 import "./assets/css/footer.css";
 
@@ -27,7 +26,6 @@ function App() {
     <>
       <ScrollUp />
       <Header theme={theme} toggleTheme={toggleTheme} />
-      <BackgroundAnimation />
       <main>
         <Hero />
         <Marquee />

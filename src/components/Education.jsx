@@ -10,7 +10,7 @@ function Education() {
           <div className="content">
             <h3>EMSI Casablanca</h3>
             <p>2025 - Present</p>
-            <span>Computer Science & Networks</span>
+            <span>Software Engineering - Computer Science & Networks</span>
           </div>
         </div>
 

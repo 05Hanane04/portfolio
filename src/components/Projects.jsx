@@ -1,26 +1,34 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import gestabsences from "../assets/images/gestabsences.png";
 import ksh from "../assets/images/ksh-project.png";
 import camping from "../assets/images/camping.jpg";
 import olfactive from "../assets/images/olfactive.png";
 
 const projects = [
   {
+    title: "Attendance Management System",
+    image: gestabsences,
+    type: "Final Year Project - EMSI",
+    tech: ["Laravel", "Vue.js", "Bootstrap", "MySQL"],
+    live: "",
+    code: "https://github.com/05Hanane04/gestion-absences",
+  },
+  {
     title: "E-commerce Website",
     image: ksh,
-    type: "College Project",
+    type: "College Project - EMSI",
     tech: ["HTML5", "CSS3", "JavaScript", "Netlify"],
     live: "https://ksh-makeup.netlify.app/",
-    code: "https://github.com/05Hanane04",
+    code: "https://github.com/05Hanane04/project-js",
   },
   {
     title: "Camping App",
     image: camping,
-    type: "Final Year Project",
+    type: "Final Year Project - ISFO",
     tech: ["React", "CSS3", "JavaScript", "Laravel", "MySQL"],
     live: "https://05hanane04.github.io/Camping-App/",
-    code: "https://github.com/05Hanane04",
+    code: "https://github.com/05Hanane04/Camping-App",
   },
   {
     title: "Olf'Active Portfolio Website",
@@ -28,7 +36,7 @@ const projects = [
     type: "Internship Project",
     tech: ["React", "CSS3", "JavaScript", "Laravel", "UI/UX"],
     live: "https://olfactive-website.vercel.app",
-    code: "https://github.com/05Hanane04",
+    code: "https://github.com/05Hanane04/olfactive-website",
   },
 ];
 
