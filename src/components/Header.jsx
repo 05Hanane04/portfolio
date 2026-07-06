@@ -47,6 +47,7 @@ function Header({ theme, toggleTheme }) {
               <li><a href="#home" className="nav-link">Home</a></li>
               <li><a href="#projects" className="nav-link">Projects</a></li>
               <li><a href="#education" className="nav-link">Education</a></li>
+              <li><a href="#experience" className="nav-link">Experience</a></li>
               <li><a href="#certificates" className="nav-link">Certificates</a></li>
               <li><a href="#contact" className="nav-link">Contact</a></li>
             </ul>
@@ -63,7 +64,7 @@ function Header({ theme, toggleTheme }) {
       </div>
 
 
-      {/* ✅ MOBILE NAV */}
+      {/* MOBILE NAV */}
       <nav className={`mobile-nav ${menuOpen ? "active" : ""}`}>
 
         <button
@@ -85,6 +86,9 @@ function Header({ theme, toggleTheme }) {
             </li>
             <li className="nav-item">
               <a href="#education" className="nav-link" onClick={() => setMenuOpen(false)}>Education</a>
+            </li>
+            <li className="nav-item">
+              <a href="#experience" className="nav-link" onClick={() => setMenuOpen(false)}>Experience</a>
             </li>
             <li className="nav-item">
               <a href="#certificates" className="nav-link" onClick={() => setMenuOpen(false)}>Certificates</a>

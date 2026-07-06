@@ -1474,3 +1474,96 @@ body.dark-theme .theme-btn-mobile .sun {
     object-fit: cover;
   }
 }
+
+/* ---------- Experience / Stages professionnels ---------- */
+.experience-section {
+  margin-top: 6rem;
+}
+
+.experience-timeline {
+  position: relative;
+  margin-top: 3rem;
+  padding-left: 2rem;
+  border-left: 2px solid var(--accent);
+}
+
+.exp-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.exp-dot {
+  position: absolute;
+  left: -18px;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  box-shadow: 0 0 0 4px var(--background-primary);
+}
+
+.exp-content {
+  margin-left: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 14px;
+  background: var(--background-secondary);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.exp-item:hover .exp-content {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.exp-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.exp-header h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--foreground-primary);
+}
+
+.exp-period {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.exp-company {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--foreground-secondary);
+}
+
+.exp-desc {
+  margin-top: 0.6rem;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--foreground-secondary);
+  opacity: 0.9;
+}
+
+.exp-tech {
+  margin-top: 0.9rem;
+}
+
+.exp-link {
+  margin-top: 1rem;
+  display: inline-flex;
+}

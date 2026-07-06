@@ -10,11 +10,10 @@ function SoftSkills() {
         <button className="hashtag ">Flexibility</button>
         <button className="hashtag ">Time Management</button>
         <button className="hashtag ">Creativity</button>
-        <button className="hashtag ">Ponctuality</button>
-        <button className="hashtag ">Stress Management</button>
+        <button className="hashtag ">Punctuality</button>
+        <button className="hashtag ">Autonomy</button>
       </div>
     </div>
   );
 }
-
 export default SoftSkills;

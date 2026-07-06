@@ -7,7 +7,7 @@ import Education from "./components/Education";
 import Certificates from "./components/Certificates";
 import SoftSkills from "./components/SoftSkills";
 import Topics from "./components/Topics";
-
+import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollUp from "./components/ScrollUp";
@@ -35,6 +35,8 @@ function App() {
             <div className="blog">
               <Projects />
               <Education />
+              <Experience />
+
               <Certificates />
             </div>
 

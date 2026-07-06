@@ -33,8 +33,8 @@ const projects = [
   {
     title: "Olf'Active Portfolio Website",
     image: olfactive,
-    type: "Internship Project",
-    tech: ["React", "CSS3", "JavaScript", "Laravel", "UI/UX"],
+    type: "Internship Project - ISFO",
+    tech: ["React", "CSS3", "JavaScript", "Laravel", "MySQL"],
     live: "https://olfactive-website.vercel.app",
     code: "https://github.com/05Hanane04/olfactive-website",
   },

@@ -9,10 +9,15 @@ function Hero() {
             <img src={profile} alt="Hanane" className="hero-mobile-img" />
 
             <h1 className="h1">
-              Hello , I am <br></br><b>Challal Hanane</b> , <br></br>Full Stack Developer.
+              Hello , I am <br></br>
+              <b>Challal Hanane</b> , <br></br>Full Stack Developer.
             </h1>
 
-            <p className="h3">Creating elegant web solutions using modern technologies.</p>
+            <p className="h3">
+              Creating Elegant Web Solutions using Modern
+              Technologies.
+              Passionate about Data Science.
+            </p>
 
             <div className="btn-group">
               <a href="#contact" className="btn btn-primary">
