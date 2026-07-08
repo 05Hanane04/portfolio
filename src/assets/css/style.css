@@ -1513,7 +1513,7 @@ body.dark-theme .theme-btn-mobile .sun {
   padding: 1.25rem 1.5rem;
   border-radius: 14px;
   background: var(--background-secondary);
-  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  border: 1px solid color-mix(in srgb, rgb(69, 30, 3) 35%, transparent);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
   transition: transform 0.35s ease, box-shadow 0.35s ease;
 }

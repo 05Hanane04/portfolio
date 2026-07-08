@@ -6,8 +6,7 @@ function Footer() {
           <h2 className="footer-logo">Portfolio</h2>
 
           <p className="footer-description">
-            A passionate Software Engineering student specialized in Computer
-            Science & Networks.
+          Data Science enthusiast, passionate about web development and always eager to learn new technologies.
           </p>
         </div>
 
@@ -23,6 +22,9 @@ function Footer() {
             </li>
             <li>
               <a href="#education">Education</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
             </li>
             <li>
               <a href="#certificates">Certificates</a>

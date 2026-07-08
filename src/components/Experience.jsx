@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     company: "Olf'Active",
-    role: "Intern - Web Development",
+    role: "Intern - Full Stack Developer",
     period: "March 2025",
     location: "Casablanca",
     description:
@@ -11,7 +11,15 @@ const experiences = [
     tech: ["React", "CSS3", "JavaScript", "Laravel", "MySQL"],
     link: "https://olfactive-website.vercel.app",
   },
-  
+  {
+    company: "Orange Maroc",
+    role: "Intern - Data Engineer",
+    period: "July 2026",
+    location: "Casablanca",
+    description: "",
+    tech: ["Web Scraping", "Python", "SQL", "Data Analysis"],
+    link: "",
+  },
 ];
 
 const cardVariants = {
@@ -27,7 +35,7 @@ const cardVariants = {
 function Experience() {
   return (
     <section id="experience" className="experience-section">
-      <h2 className="h2">Professional Experience : Internships</h2>
+      <h2 className="h2">Professional Experience</h2>
 
       <div className="experience-timeline">
         {experiences.map((exp, index) => (
@@ -71,7 +79,8 @@ function Experience() {
                   rel="noopener noreferrer"
                   className="project-link exp-link"
                 >
-                  <i className="fa-solid fa-arrow-up-right-from-square"></i> Voir le projet
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>{" "}
+                  Voir le projet
                 </a>
               )}
             </div>
@@ -81,5 +90,4 @@ function Experience() {
     </section>
   );
 }
-
 export default Experience;
