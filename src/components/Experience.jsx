@@ -16,8 +16,8 @@ const experiences = [
     role: "Intern - Data Engineer",
     period: "July 2026",
     location: "Casablanca",
-    description: "",
-    tech: ["Web Scraping", "Python", "SQL", "Data Analysis"],
+    description: "Automating data collection from Orange's internal portals through web scraping, and storing the data in Excel files using Python and openpyxl. ",
+    tech: ["Web Scraping", "Python", "openpyxl ", "API","JSON"],
     link: "",
   },
 ];
