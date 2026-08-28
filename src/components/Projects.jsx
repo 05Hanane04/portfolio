@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import gestabsences from "../assets/images/gestabsences.png";
 import ksh from "../assets/images/ksh-project.png";
-import camping from "../assets/images/camping.jpg";
+import camping from "../assets/images/camping.png";
 import olfactive from "../assets/images/olfactive.png";
 
 const projects = [

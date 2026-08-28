@@ -6,7 +6,7 @@ function Footer() {
           <h2 className="footer-logo">Portfolio</h2>
 
           <p className="footer-description">
-          Data Science enthusiast, passionate about web development and always eager to learn new technologies.
+          Passionate about web development & Data Science.
           </p>
         </div>
 
