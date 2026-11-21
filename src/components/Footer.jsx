@@ -6,7 +6,7 @@ function Footer() {
           <h2 className="footer-logo">Portfolio</h2>
 
           <p className="footer-description">
-          Passionate about web development & Data Science.
+          Passionate about Web Development & Data Science.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © 2026 · Challal Hanane · All Rights Reserved · Coded with 💗
+        © 2026 · Challal Hanane · Coded with 💗
       </div>
     </footer>
   );

@@ -1,4 +1,4 @@
-import profile from "../assets/images/hanane.jpeg";
+import profile from "../assets/images/hanane.JPG";
 
 function Hero() {
   return (
@@ -10,13 +10,11 @@ function Hero() {
 
             <h1 className="h1">
               Hello , I am <br></br>
-              <b>Challal Hanane</b> , <br></br>Full Stack Developer.
+              <b>Challal Hanane</b> , <br></br>Computer Science Student.
             </h1>
 
             <p className="h3">
-              Creating Elegant Web Solutions using Modern
-              Technologies.
-              Passionate about Data Science.
+              Passionate about Web Development & Data Science.
             </p>
 
             <div className="btn-group">
